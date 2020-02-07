@@ -33,7 +33,7 @@ public class MainServer extends javax.swing.JFrame {
             nlist=new ArrayList<>();
             h=new HandleClient();
             h.start();
-            //((DefaultTableModel)namelist.getModel()).setValueAt("Raj[7]",0,0);
+            //((DefaultTable)namelist.getModel()).setValueAt("Raj[7]",0,0);
         }catch(Exception e){}
     }  
 
